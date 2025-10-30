@@ -1,3 +1,24 @@
+#Python
+pycache/
+*.py[cod]
+*$py.class
+
+#Environment
+.env
+.env.*
+
+#Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+#AI Summarizer specific
+temp_summaries/
+
+#OS / Editor
+.DS_Store
+.vscode/
 # Logs
 logs
 *.log
