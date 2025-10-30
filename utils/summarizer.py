@@ -26,8 +26,8 @@ if not GEMINI_API_KEY:
 else:
     genai.configure(api_key=GEMINI_API_KEY)
 
-MODEL_FILE_NAME = "models/gemini-1.5-flash-latest" # Using a standard model name
-MODEL_PROJECT_NAME = "models/gemini-1.5-flash-latest" # Using a standard model name
+MODEL_FILE_NAME = "models/gemini‑2.5‑flash"
+MODEL_PROJECT_NAME = "models/gemini‑2.5‑flash‑lite"
 
 # Generation configs
 gen_config_file = genai.GenerationConfig(
